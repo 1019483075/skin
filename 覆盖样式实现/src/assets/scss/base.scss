@@ -1,0 +1,12 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+body,
+html {
+  line-height: 1;
+  font-family: "Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif";
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  // background: $fill-1;
+  @include bg-color(fill-1);
+  transition: all 0.3s linear;
+}
