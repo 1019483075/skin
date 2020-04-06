@@ -1,0 +1,21 @@
+// 默认变量
+:root {
+  --fill-1: #fff;
+  --text: #3c3c3c;
+  --text-1: #757575;
+  --text-2: #222;
+
+  --font-size-large: 18px;
+  --font-size-large-x: 22px;
+  --font-size-medium: 14px;
+  --font-size-medium-x: 16px;
+  --font-size-small-s: 10px;
+  --font-size-small: 12px;
+}
+// 深色变量
+[data-theme="dark"] {
+  --fill-1: #222;
+  --text: #fff;
+  --text-1: rgba(255, 255, 255, 0.3);
+  --text-2: #ffcd32;
+}

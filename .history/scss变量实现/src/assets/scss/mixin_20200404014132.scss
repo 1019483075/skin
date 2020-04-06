@@ -31,7 +31,7 @@
     background-color: map-get($colors-dark, $key);
   }
 }
-// text色
+// 字体
 @mixin text-color($key) {
   color: map-get($colors-light, $key);
   [data-theme="dark"] & {
