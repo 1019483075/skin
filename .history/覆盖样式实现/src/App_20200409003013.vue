@@ -7,10 +7,34 @@
 </template>
 
 <script>
+// import cssVars from "css-vars-ponyfill";
+
+// let theme = 1;
+
+// const lightTheme = {
+//   "--bg-color": "#f5f6f7",
+// };
+
+// const darkTheme = {
+//   "--bg-color": "#000000",
+// };
+
 export default {
   name: "App",
   components: {},
-  methods: {},
+  methods: {
+    // change() {
+    //   document.documentElement.setAttribute(
+    //     "data-theme",
+    //     theme ? "light" : "dark",
+    //   );
+    // cssVars({
+    //   variables: theme ? lightTheme : darkTheme,
+    //   onlyLegacy: false,
+    // });
+    // theme = !theme;
+    // },
+  },
 };
 </script>
 

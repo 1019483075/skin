@@ -10,7 +10,9 @@
 export default {
   name: "App",
   components: {},
-  methods: {},
+  methods: {
+    // },
+  },
 };
 </script>
 
