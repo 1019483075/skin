@@ -63,7 +63,7 @@ export default {
       line-height: 40 px;
       text-align: center;
       font-size: $font-size-medium;
-      @include text-color(text-1);
+        @include text-color(text-1);
     }
     .item {
       display: flex;
@@ -89,7 +89,7 @@ export default {
         @include text-color(text);
       }
       .desc {
-        @include text-color(text-1);
+          @include text-color(text-1);
       }
     }
   }
