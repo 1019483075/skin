@@ -1,0 +1,10 @@
+@import "./mixin.scss";
+body,
+html {
+  line-height: 1;
+  font-family: "Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif";
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: var(--fill-1);
+  transition: all 0.3s linear;
+}
